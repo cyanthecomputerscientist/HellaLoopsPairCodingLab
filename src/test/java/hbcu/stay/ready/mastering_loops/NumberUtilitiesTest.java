@@ -102,14 +102,6 @@ public class NumberUtilitiesTest {
 
 
 
-
-
-
-
-
-
-
-
     @Test
     public void testGetRange1C() {
         // : Given
@@ -161,15 +153,6 @@ public class NumberUtilitiesTest {
 
 
 
-
-
-
-
-
-
-
-
-
     @Test
     public void testGetEvenNumbers() {
         // : Given
@@ -190,7 +173,6 @@ public class NumberUtilitiesTest {
         String expected = "681012141618";
         int start = 5;
         int stop = 20;
-        int step = 5;
 
         // : When
         String actual = NumberUtilities.getOddNumbers(start, stop);
